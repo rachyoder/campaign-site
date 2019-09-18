@@ -1,0 +1,14 @@
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/burns-lexington-skyline.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#playfairDisplayFont {
+	font-family: "Playfair Display SC", serif;
+}
+#karmaFont {
+	font-family: "Karma", serif;
+}
