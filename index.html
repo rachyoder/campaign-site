@@ -32,7 +32,7 @@
 					<a class="nav-link" id="karmaFont" href="#whoIsBurns">Who is Burns?</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="karmaFont" href="#supportUs">Support Us</a>
+					<a class="nav-link" id="karmaFont" data-toggle="modal" data-target="#donationModal">Support Us</a>
 				</li>
 			</ul>
 		</div>
@@ -57,7 +57,7 @@
 	<!-- The Call to Action -->
 	<div class="container">
 		<div id="issesSection" class="row mt-5">
-			<div class="col-md-4 order-xs-12">
+			<div class="col-md-4 order-xs-last order-sm-last">
 				<div class="card text-left mb-5">
 					<img class="card-img-top h-50" src="img/burns-poster.png"
 						alt="a campaign poster of Mr Burns, stylized in Blue and Red">
@@ -73,7 +73,7 @@
 				</div>
 			</div>
 			<!-- Accoridon Collapse -->
-			<div class="col-md-8">
+			<div class="col-md-8 order-xs-first order-sm-first">
 				<div class="accordion mb-4" id="currentIssues">
 					<div class="card">
 						<div class="card-header" id="firstIssue">
@@ -229,9 +229,26 @@
 				</div>
 			</div>
 		</div>
-		<div id="supportUs" class="row">
-			<div class="col-md-8">
-				
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="donationModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 id="karmaFont" class="modal-title" id="modalLabel">Thank You For Your Generous Donation</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div id="karmaFont" class="modal-body">
+					The money has automatically been removed from your account.
+				</div>
+				<div id="karmaFont" class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Okay</button>
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Wait, What?</button>
+				</div>
+
 			</div>
 		</div>
 	</div>
