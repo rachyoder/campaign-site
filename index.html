@@ -17,7 +17,7 @@
 <body class="bg-light">
 	<!-- Navbar Content -->
 	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-danger">
-		<a id="playfairDisplayFont" class="navbar-brand ml-2" href="#">Vote Burns for Constable</a>
+		<a id="playfairDisplayFont" class="navbar-brand ml-2" href="#">Vote Monty Burns</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCampaign"
 			aria-controls="navbarCampaign" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -38,12 +38,12 @@
 		</div>
 	</nav>
 	<!-- Landing Page -->
-	<header class="masthead">
+	<header class="masthead float-xs-left float-md-none">
 		<div class="container h-100">
 			<div class="row h-100 align-items-center">
-				<div class="col-6 ml-6 text-left">
+				<div class="col-sm-6 ml-6 text-left">
 					<div id="opacity" class="jumbotron bg-dark">
-						<h1 id="playfairDisplayFont" class="display-4 text-light">Monty Burns</h1>
+						<h1 id="playfairDisplayFont" class="display-6 text-light">Monty Burns</h1>
 						<p id="karmaFont" class="lead text-light">A truly <em><strong>excellent</strong></em> candidate
 							for Lexington.</p>
 						<hr class="bg-light">
@@ -54,10 +54,10 @@
 			</div>
 		</div>
 	</header>
-	<!-- The Issues -->
+	<!-- The Call to Action -->
 	<div class="container">
 		<div id="issesSection" class="row mt-5">
-			<div class="col-md-4">
+			<div class="col-md-4 order-xs-12">
 				<div class="card text-left mb-5">
 					<img class="card-img-top h-50" src="img/burns-poster.png"
 						alt="a campaign poster of Mr Burns, stylized in Blue and Red">
@@ -72,7 +72,7 @@
 				</div>
 			</div>
 			<!-- Accoridon Collapse -->
-			<div class="col-md-8">
+			<div class="col-md-8 order-xs-1">
 				<div class="accordion mb-5" id="currentIssues">
 					<div class="card">
 						<div class="card-header" id="firstIssue">
@@ -158,29 +158,33 @@
 					</div>
 				</div>
 				<div class="row">
-				<table class="table table-bordered">
-					<thead>
-						<tr>
-							<th>Campaign Donors</th>
-							<th>Amount Donated</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td scope="row"></td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td scope="row"></td>
-							<td></td>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+					<!-- Donor Table -->
+					<table class="table table-bordered table-hover mx-3">
+						<thead id="playfairDisplayFont">
+							<tr>
+								<th>Campaign Donors</th>
+								<th>Amount Donated</th>
+							</tr>
+						</thead>
+						<tbody id="karmaFont">
+							<tr>
+								<td scope="row">Businessmen of America</td>
+								<td>$25,000,000</td>
+							</tr>
+							<tr>
+								<td scope="row">American Nuclear Association</td>
+								<td>$450,000</td>
+							</tr>
+							<tr>
+								<td scope="row">Americans For Burns</td>
+								<td>$25,000</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
+		<!-- Card Row -->
 		<div class="row">
 			<div class="col-md-4 my-4">
 				<div class="card text-center">
